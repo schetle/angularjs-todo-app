@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 8080 -o",
+    "build": "echo \"No build step required for static AngularJS app - files are ready to deploy\"",
     "http-server": "node node_modules/.bin/http-server"
   },
   "author": "Oussama Alouat",
