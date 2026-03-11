@@ -1,0 +1,29 @@
+/* Migrated from legacy todo.css - adapted for Bootstrap 5 */
+
+.btn-rounded {
+  border-radius: 2rem !important;
+}
+
+.min-h-panel {
+  min-height: 15rem;
+}
+
+.active-panel {
+  text-align: center;
+  background-color: rgba(155, 155, 155, 0.5);
+}
+
+.archive-panel {
+  text-align: center;
+  background-color: rgba(155, 155, 255, 0.5);
+}
+
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.counter-bar {
+  background-color: rgba(120, 157, 206, 0.5);
+  min-height: 3rem;
+}
